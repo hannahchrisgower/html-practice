@@ -6,20 +6,20 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header id="main_page_header">
       <h1>My Music Page</h1>
       <p>This is a page all about the music and artists that I like!</p>
     </header>
     
-    <main>
-      <article>
+    <main id = "page1_content">
+      <article id = "Hozier">
         <h3>Hozier</h3>
         <img
           src = "./img/hozier.jpg"
           alt = "image of Hozier on his UK tour"
-          width = 25%>
-        <section>
-          <p>Favorite Songs</p>
+          width = 25%/>
+        <section id = "songs">
+          <p class = "subheader">Favorite Songs</p>
           <ul>
             <li>Take Me To Church</li>
             <li>Dinner & Diatribes</li>
@@ -27,22 +27,24 @@
             <li>Nobody's Soldier</li>
           </ul>
         </section>
-        <section>
-          <p>Best Albums</p>
+        <section id = "albums">
+          <p class = "subheader">Best Albums</p>
           <ol>
             <li>Wasteland, Baby!</li>
             <li>Unreal Earth</li>
             <li>Hozier</li>
           </ol>
         </section>
-        <p> Learn more about <a href = "https://hozier.com/">Hozier</a> here</p>
+        <p class = "button"> Learn more about 
+          <a href = "https://hozier.com/">Hozier</a> here
+        </p>
       
       </article>
-      <nav>
+      <nav id = "footer">
         <h4>See my other favorite artists!</h4>
         <ul>
-          <li><a href="./cranewives.html">The Crane Wives</a>
-          </li><li><a href="./florence.html">Florence + The Machine</a></li>
+          <li><a href="./cranewives.html">The Crane Wives</a></li>
+          <li><a href="./florence.html">Florence + The Machine</a></li>
         </ul>
       </nav>
     </main>
